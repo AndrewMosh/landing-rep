@@ -1,0 +1,88 @@
+.section-intro {
+    background-image: url(../images/p1.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    @media (max-width: 728px) and (min-width: 320px) {
+      height: 500px;
+  }
+  }
+  
+  .container-intro {
+    padding: 163px 87px 199px 134px;
+    max-width: 1400px;
+    margin: 0 auto;
+    @media (max-width: 728px) and (min-width: 320px) {
+      padding: 68px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  }
+  .container-intro h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    margin-bottom: 18px;
+    @media (max-width: 728px) and (min-width: 320px) {
+      font-size: 23px;
+      line-height: 132.83%;
+      padding-right: 43px;
+  }
+  }
+  .container-intro p {
+    font-weight: 400px;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 36px;
+    margin-bottom: 25px;
+    @media (max-width: 728px) and (min-width: 320px) {
+      font-size: 14px;
+      line-height: 18px;
+      padding-right: 19px;
+      padding-bottom: 45px;
+  }
+  }
+  .container-intro span {
+    font-family: "Yeseva One";
+    color: #e3b873;
+  }
+  .container-intro button {
+    margin-right: 17px;
+    padding-top: 4px;
+    padding-right: 2px;
+    @media (max-width: 728px) and (min-width: 320px) {
+      margin-right: 0;
+      width: 339px;
+      height: 51px;
+      max-width: 100%;
+  }
+  }
+  .container-intro button:nth-of-type(2) {
+    background-color: transparent;
+    border: 1px solid white;
+    font-style: italic;
+    @media (max-width: 728px) and (min-width: 320px) {
+      display: none;
+  }
+  }
+  .mobilebutton {
+    display: none;
+    @media (max-width: 728px) and (min-width: 320px) {
+      display: block;
+    background-color: transparent;
+    border: 1px solid white;
+    font-style: italic;
+    margin-top: 28px;
+  }
+  }
+  

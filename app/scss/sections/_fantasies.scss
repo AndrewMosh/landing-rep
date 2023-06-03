@@ -1,0 +1,135 @@
+.mobile-hidden {
+    display: none;
+    h2 {
+      @media (max-width: 874px) {
+        text-align: center;
+        color: #e3b873;
+        font-size: 22px;
+        line-height: 30.49px;
+        margin-bottom: 20px;
+    }
+    }
+    @media (max-width: 874px) {
+      display: block;
+    position: relative;
+    top: -127px;
+  }
+  }
+  .section-fantas {
+    margin-top: 180px;
+    margin-bottom: 100px;
+    @media (max-width: 874px) {
+      margin: 0;
+  }
+  }
+  .container-fantas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url(../images/bg-pic-fant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 864px;
+    &:not(.list-fantas h2) {
+      @media (max-width: 874px) {
+        display: none;
+    }
+    }
+    @media (max-width: 1257px) {
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+  }
+  }
+  .list-fantas {
+    padding: 30px 210px 0 0;
+    @media (max-width: 1257px) {
+      padding-left: 30px;
+  }
+  }
+  .list-fantas h2 {
+    font-size: 27px;
+    line-height: 37.42px;
+    padding-top: 21px;
+    color: #e3b873;
+  }
+  .list-fantas ul {
+    padding-top: 35px;
+    li {
+      @media (max-width: 1257px) {
+        margin-left: 45px;
+    } 
+    }
+    @media (max-width: 1257px) {
+      display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  }
+  .list-fantas li {
+    list-style-type: none;
+    @media (max-width: 1257px) {
+      margin-left: 45px;
+  }
+  }
+  .list-fantas li a {
+    font-size: 20px;
+    line-height: 49px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .list-fantas ul li:first-child {
+    text-decoration: underline;
+    color: #e3b873;
+    text-underline-offset: 6px;
+    font-size: 20px;
+    line-height: 49px;
+  }
+  .list-fantas li a:hover {
+    color: #e3b873;
+  }
+  .photos-fantas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 43px;
+    @media (max-width: 1257px) {
+      display: none;
+  }
+  }
+  .photos-fantas div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .photos-fantas div:nth-child(2) {
+    margin-top: -73px;
+  }
+  
+  .section-clients {
+    @media (max-width: 1000px) {
+      display: none;
+  }
+  }
+  .slideshow-container2 {
+    @media (max-width: 874px) {
+      max-width: 2000px;
+      position: relative;
+      margin: auto;
+      margin-top: 2px;
+  }
+  }
