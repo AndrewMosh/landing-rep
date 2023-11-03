@@ -10,7 +10,7 @@
 
 ## Вспомогательные средства разработчика
 
-_Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материалы SF_
+_Perfect Pixel, Page Ruler, CSS lint, html validator
 
 ## Ссылка на лэндинг
 [демо](https://andrewmosh.github.io/landing-rep/)
