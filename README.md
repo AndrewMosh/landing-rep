@@ -13,5 +13,5 @@
 _Perfect Pixel, Page Ruler, CSS lint, html validator, VC studio, материалы SF_
 
 ## Ссылка на лэндинг
-[демо]([https://www.example.com](https://andrewmosh.github.io/landing-rep/))
+[демо](https://andrewmosh.github.io/landing-rep/)
 
